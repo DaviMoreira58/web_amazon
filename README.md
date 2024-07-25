@@ -9,3 +9,6 @@ pandas para a analise de dados
 
 para gerar os graficos
 [text](https://plotly.com/)
+
+dados retirados do site, sendo de novembro de 2022
+[text](https://www.kaggle.com/datasets/anshtanwar/top-200-trending-books-with-reviews?resource=download)
