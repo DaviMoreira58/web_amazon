@@ -13,4 +13,4 @@ df_top100_books = pd.read_csv(path_book)
 
 price_max = df_top100_books['book price'].max()
 price_min = df_top100_books['book price'].min()
-st.slider('Price Range', price_min, price_max, price_max)
+st.sidebar.slider('Price Range', price_min, price_max, price_max)
