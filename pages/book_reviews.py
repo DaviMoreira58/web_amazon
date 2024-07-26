@@ -11,7 +11,6 @@ book = st.sidebar.selectbox(
 )
 
 df_book = df_top100_books[df_top100_books['book title'] == book]
-df_book # para exibir na pagina
-
 df_reviews_f = df_reviews[df_reviews['book name'] == book]
-df_reviews_f # para exibir na pagina
+
+book_title = df_book['book title'].iloc[0]
