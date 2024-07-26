@@ -12,3 +12,5 @@ para gerar os graficos
 
 dados retirados do site, sendo de novembro de 2022
 [text](https://www.kaggle.com/datasets/anshtanwar/top-200-trending-books-with-reviews?resource=download)
+
+![image](https://github.com/user-attachments/assets/b36b0954-a47e-49b1-bd0d-fb1a34ad173a)
