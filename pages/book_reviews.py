@@ -7,3 +7,6 @@ book = st.sidebar.selectbox(
     'Books',
     books
 )
+
+df_book = df_top100_books[df_top100_books['book title'] == book]
+df_book # para exibir na pagina
