@@ -18,3 +18,6 @@ book_genre = df_book['genre'].iloc[0]
 book_price = df_book['book price'].iloc[0]
 book_rating = df_book['rating'].iloc[0]
 book_year = df_book['year of publication'].iloc[0]
+
+st.title(book_title)
+st.subheader(book_genre)
