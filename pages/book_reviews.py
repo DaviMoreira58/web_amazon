@@ -31,5 +31,5 @@ st.divider()
 
 for row in df_reviews_f.values:
     message = st.chat_message(f'{row[4]}')
-    st.write(row[2])
-    st.write(row[5])
+    message.write(f'**{row[2]}**')
+    message.write(f'{row[5]}')
