@@ -13,4 +13,7 @@ df_top100_books = pd.read_csv(path_book)
 
 price_max = df_top100_books['book price'].max()
 price_min = df_top100_books['book price'].min()
-st.sidebar.slider('Price Range', price_min, price_max, price_max)
+
+max_price = st.sidebar.slider('Price Range', price_min, price_max, price_max)
+df_books = df_top100_books[df_top100_books['book price'] <= max_price]
+df_books # apenas para mostrar em tempo real na pagina web
