@@ -21,3 +21,8 @@ book_year = df_book['year of publication'].iloc[0]
 
 st.title(book_title)
 st.subheader(book_genre)
+
+col1, col2, col3 = st.columns(3)
+col1.metric('Price', book_price)
+col2.metric('Rating', book_rating)
+col3.metric('Year of Publication', book_year)
