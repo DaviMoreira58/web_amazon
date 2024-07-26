@@ -26,3 +26,9 @@ col1, col2, col3 = st.columns(3)
 col1.metric('Price', book_price)
 col2.metric('Rating', book_rating)
 col3.metric('Year of Publication', book_year)
+
+st.divider()
+
+for row in df_reviews_f.values:
+    st.write(row[2])
+    st.write(row[5])
