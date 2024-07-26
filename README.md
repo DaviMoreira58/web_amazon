@@ -1,7 +1,8 @@
 # web_amazon
 web project with the purpose of checking the 100 best-selling books on Amazon and doing a data analysis
 
-vamos usar a biblioteca stramlit para a parte de desenvolvimento web
+## Lib
+we will use the stramlit library for the web development part
 [stramlit](https://streamlit.io/)
 
 pandas para a analise de dados
